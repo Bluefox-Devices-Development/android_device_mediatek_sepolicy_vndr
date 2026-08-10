@@ -436,6 +436,8 @@ vendor.soter.teei. u:object_r:vendor_mtk_soter_teei_prop:s0
 
 vendor.rpmb.ready u:object_r:vendor_mtk_rpmb_ready_prop:s0
 
+vendor.mtk.ufs. u:object_r:vendor_mtk_ufs_prop:s0
+
 ro.vendor.mtklog_internal u:object_r:vendor_mtk_default_prop:s0
 
 # customer log path

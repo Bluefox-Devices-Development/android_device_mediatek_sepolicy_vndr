@@ -1,6 +1,7 @@
 # ==============================================
 # Common SEPolicy Rule
 # ==============================================
+binder_use(tee)
 
 # Date : 2016/06/01
 # Operation: TEEI integration
@@ -53,6 +54,7 @@ allow tee tkcore_protect_data_file:file { create_file_perms link };
 
 # UFS
 allow tee ufs_bsg_device:chr_file rw_file_perms;
+set_prop(tee, vendor_mtk_ufs_prop)
 
 # MiTee
 allow tee proc_mitee_log:file r_file_perms;

@@ -154,6 +154,12 @@ vendor_restricted_prop(vendor_mtk_boostfwk_scrollidentify_prop)
 vendor_restricted_prop(vendor_mtk_boostfwk_display60_prop)
 vendor_restricted_prop(vendor_mtk_boostfwk_frameidentify_prop)
 vendor_restricted_prop(vendor_mtk_boostfwk_prop)
+vendor_restricted_prop(vendor_mtk_boostfwk_checkpoint_prop)
+vendor_restricted_prop(vendor_mtk_boostfwk_scroll_duration_h_prop)
+vendor_restricted_prop(vendor_mtk_boostfwk_scroll_duration_v_prop)
+vendor_restricted_prop(vendor_mtk_boostfwk_sbb_touch_duration_prop)
+vendor_restricted_prop(vendor_mtk_boostfwk_scroll_floor_prop)
+vendor_restricted_prop(vendor_mtk_boostfwk_frame_decision_prop)
 vendor_restricted_prop(vendor_mtk_datashaping_prop)
 vendor_restricted_prop(vendor_mtk_default_write_disk_prop)
 vendor_restricted_prop(vendor_mtk_dmc_prop)
@@ -352,6 +358,12 @@ typeattribute vendor_mtk_boostfwk_scrollidentify_prop mtk_core_property_type;
 typeattribute vendor_mtk_boostfwk_display60_prop      mtk_core_property_type;
 typeattribute vendor_mtk_boostfwk_frameidentify_prop  mtk_core_property_type;
 typeattribute vendor_mtk_boostfwk_prop                mtk_core_property_type;
+typeattribute vendor_mtk_boostfwk_checkpoint_prop          mtk_core_property_type;
+typeattribute vendor_mtk_boostfwk_scroll_duration_h_prop   mtk_core_property_type;
+typeattribute vendor_mtk_boostfwk_scroll_duration_v_prop   mtk_core_property_type;
+typeattribute vendor_mtk_boostfwk_sbb_touch_duration_prop  mtk_core_property_type;
+typeattribute vendor_mtk_boostfwk_scroll_floor_prop        mtk_core_property_type;
+typeattribute vendor_mtk_boostfwk_frame_decision_prop      mtk_core_property_type;
 typeattribute vendor_mtk_datashaping_prop             mtk_core_property_type;
 typeattribute vendor_mtk_default_write_disk_prop      mtk_core_property_type;
 typeattribute vendor_mtk_drm_fwd_lock_only_prop       mtk_core_property_type;

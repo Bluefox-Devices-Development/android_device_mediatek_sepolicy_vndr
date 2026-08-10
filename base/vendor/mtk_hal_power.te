@@ -156,6 +156,14 @@ allow mtk_hal_power mediaserver:file r_file_perms;
 set_prop(mtk_hal_power, vendor_mtk_thermal_config_prop)
 set_prop(mtk_hal_power, vendor_mtk_powerhal_gpu_prop)
 
+# Allow PowerHAL to publish BoostFwk runtime tuning state.
+set_prop(mtk_hal_power, vendor_mtk_boostfwk_checkpoint_prop)
+set_prop(mtk_hal_power, vendor_mtk_boostfwk_scroll_duration_h_prop)
+set_prop(mtk_hal_power, vendor_mtk_boostfwk_scroll_duration_v_prop)
+set_prop(mtk_hal_power, vendor_mtk_boostfwk_sbb_touch_duration_prop)
+set_prop(mtk_hal_power, vendor_mtk_boostfwk_scroll_floor_prop)
+set_prop(mtk_hal_power, vendor_mtk_boostfwk_frame_decision_prop)
+
 # Date : 2018/06/26
 # Operation: Thermal change policy in perfservice
 allow mtk_hal_power thermal_manager_data_file:file create_file_perms;
